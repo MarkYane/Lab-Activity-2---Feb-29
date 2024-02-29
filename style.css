@@ -1,10 +1,14 @@
 header{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
+}
+
+button{
+    font-size: 24px;
+    background-color:aqua;
 }
 .header_div{
     display: flex;
-    justify-content: flex-center;
 }
 
 #header_h1{
@@ -50,6 +54,13 @@ header{
     width: 500px;
     height: 500px;
 }
+/*styling for headers inside div class elements*/
+#headers{
+    padding-left:10px;
+    font-size:20px;
+    color:black;
+    background-color:rgb(255, 165, 101);
+}
 /*styling for paragraphs inside div class elements*/
 #paragraphs{
     padding-left:10px;
@@ -78,6 +89,13 @@ header{
     font-size:23px;
     color:black;
     background-color:rgb(255, 181, 249);
+}
+
+#media{
+    padding-left:10px;
+    font-size:23px;
+    color:black;
+    background-color:rgb(55, 255, 202);
 }
 
 footer{
