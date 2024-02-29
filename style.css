@@ -1,0 +1,86 @@
+header{
+    background-color: white;
+    color: black;
+}
+.header_div{
+    display: flex;
+    justify-content: flex-center;
+}
+
+#header_h1{
+    text-align: center;
+}
+#header_h3{
+    text-align: center;
+}
+
+/*Nav Bar*/
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(0,0,0);
+    font-size:15px;
+    padding: 10px;
+    margin:0px;
+    overflow:hidden;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 15px;
+    text-align:center;
+}
+
+.navbar a:hover{
+    background-color: rgb(37, 37, 37);
+}
+
+.navbar li{
+    float: left;
+}
+/*Flexbox style of the parent div class container*/
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*Size of the div class elements*/
+.elements{
+    width: 500px;
+    height: 500px;
+}
+/*styling for paragraphs inside div class elements*/
+#paragraphs{
+    padding-left:10px;
+    font-size:20px;
+    color:black;
+    background-color:rgb(0, 247, 255);
+}
+
+/*styling for lists inside div class elements*/
+#list{
+    padding-left:10px;
+    font-size:23px;
+    color:black;
+    background-color:rgb(255, 251, 32);
+}
+
+#links{
+    padding-left:10px;
+    font-size:23px;
+    color:black;
+    background-color:rgb(91, 255, 140);
+}
+
+#table{
+    padding-left:10px;
+    font-size:23px;
+    color:black;
+    background-color:rgb(255, 181, 249);
+}
+
+footer{
+    background-color: black;
+    color:white;
+}
